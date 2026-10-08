@@ -4,6 +4,10 @@
 # 로컬 실행
 # python -m streamlit run ./webservice/day31/myapp/app.py
 
+# 최초 실행 시 아래 두개 명령 수행
+# git config --global user.email "you@example.com"
+# gir config --global user.name "yourname"
+
 # Render Cloud 실행
 # streamlit run app.py --server.address 0.0.0.0 --server.port $PORT
 
