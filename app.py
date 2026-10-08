@@ -26,7 +26,7 @@ st.set_page_config(
     layout = 'wide',
 )
 
-st.title('🚀 Render배포 연습 앱')
+st.title('🚀 Render배포 연습 앱V2')
 st.write('이 화면이 보이시당가 앱이 증상적으로 실행되고 있단 말인 것이야')
 
 st.divider()
@@ -49,5 +49,3 @@ if os.getenv('APP_GREETING'):
     st.write(f'현재 인사말 설정값:{APP_GREETING}')
 else:
     st.info(f'APP_GREETING 환경변수가 설정되지 않아 기본값을 사용중 입니다!')
-'''
-'''
