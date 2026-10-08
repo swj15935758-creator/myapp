@@ -49,4 +49,5 @@ if os.getenv('APP_GREETING'):
     st.write(f'현재 인사말 설정값:{APP_GREETING}')
 else:
     st.info(f'APP_GREETING 환경변수가 설정되지 않아 기본값을 사용중 입니다!')
-""
+'''
+'''
